@@ -1,0 +1,186 @@
+html{
+    font-size: 62,5%;/*Reset para los REMS  - 62.5% = 10px de 16px*/
+}
+/*
+select
+declaraciones
+propiedades
+valores
+*/
+
+/*Sección de globes*/
+body{
+    font-synthesis: 16px;
+    font-family: 'Lato', sans-serif;
+}
+.contenedor{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*Estilos el Header*/
+.site-headerinicio{
+    background-image: url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    min-height: 50rem;
+}
+
+.barra{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;  
+}
+
+.navegacion a{
+    color: #ffffff;
+    font-family: sans-serif;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+.navegacion a:hover{
+    color: #71b100;
+}
+
+.titulo-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.titulo-header{
+    color: #ffffff;
+    max-width: 60rem;
+    line-height: 2;
+    padding-bottom: 2rem;
+}
+
+.informacion{
+    background-image: url(../img/encuentra.jpg);
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+
+    min-height: 21rem;
+    background-position: center center;
+    background-size: 106rem;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.tema{
+    margin: 4rem 0rem 6rem 9rem;
+    justify-content: center;
+}
+
+/*Iconos-index*/
+.contenedor h2{
+    text-align: center;
+}
+.iconos-index{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+   flex-basis: calc(33.3% - 2rem) ;
+   text-align: center;
+   line-height: 2;
+}
+
+.icono h3{
+    text-transform: uppercase;
+}
+
+/*header*/
+.header{
+    background-color: black;
+    background-size: cover;
+    height: 10vh;
+    min-height: 5rem;
+
+}
+
+.contenido{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;  
+}
+
+.investigacion a{
+    color:white;
+    font-family: sans-serif;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+/*conoce mas*/
+.informaciones{
+    text-align: center;
+}
+
+.experiencia{
+    display: flex;
+}
+
+.experiencia h3{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.experiencia p{
+    text-align: unset;
+}
+
+/*Tercera sección*/
+.mas h2{
+    text-align: center;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+   flex-basis: calc(33.3% - 2rem) ;
+   text-align: center;
+   line-height: 2;
+}
+
+.icono h3{
+    text-transform: uppercase;
+}
+
+/*footer*/
+.footter{
+    background-color: #303030;
+    color:white;
+}
+.navegacion2 a{
+    color:#ffffff;
+    font-family: sans-serif;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.navegacion2 a:hover{
+    color: #118fcf;
+}
+.contenedor2{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+
+    align-items:center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
