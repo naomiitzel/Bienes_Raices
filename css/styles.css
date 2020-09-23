@@ -18,6 +18,42 @@ body{
     margin: 0 auto;
 }
 
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+img{
+    max-width: 100;
+}
+
+/*Utilidades*/
+
+.cambio-seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+
 /*Estilos el Header*/
 .site-headerinicio{
     background-image: url(../img/header.jpg);
@@ -80,9 +116,7 @@ body{
 }
 
 /*Iconos-index*/
-.contenedor h2{
-    text-align: center;
-}
+
 .iconos-index{
     display: flex;
     justify-content: space-between;
@@ -97,6 +131,21 @@ body{
 .icono h3{
     text-transform: uppercase;
 }
+
+/*Seccion principal etiqueta*/
+.contenedor-etiqueta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.etiqueta{
+    flex-basis: calc(33.3% - 1rem);
+    border-style: solid;
+    border-color: #b5b5b5;
+    border-width: 1px;
+    background-color: #f5f5f5;
+}
+
 
 /*header*/
 .header{
